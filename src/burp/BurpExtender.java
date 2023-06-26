@@ -14,7 +14,7 @@ import util.Util;
 // IScannerCheck: burp扫描器主动扫描和被动扫描的流量
 // IHttpListener: 工具内所有的http流量都经过该监听器
 
-public class UrlDirCollection implements IBurpExtender, IProxyListener, IExtensionStateListener {
+public class BurpExtender implements IBurpExtender, IProxyListener, IExtensionStateListener {
 
     //定义插件信息，方便统一修改
     public static String NAME = "BurpPlugin_UrlDirCollection";
